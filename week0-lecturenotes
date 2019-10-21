@@ -1,0 +1,102 @@
+EDX CS50 Harvard
+WEEK 0 - Lecture notes composed by Daniel
+OCT 21st '19 @ 10:00AM
+
+Computer Sci starts counting at 0.
+Computer Sci is about solving problems.
+How we think about problems.
+
+
+Representation:
+  Unary, Decimal, Binary.
+  How transistors translate into 1|0 etc, hardware into numbers.
+
+Onto letters:
+  We assign letters numeric codes - UNICODE, ASCII, etc.
+  Also becomes emojis, special characters, etc.
+
+Abstraction:
+  taking fairly low-level details (IE - Zeros & Ones) and then stipulate
+  that my computer can respresent Numbers, Letters, and ...
+
+UNICODE & UTF-8:
+ Now into the billions. Great.
+
+RGB:
+  Colors. Fantastic, eh? This is pretty elementary.
+  Bytes, by resolution = size. (times frames per second = movies & gigs)
+
+Video & Pictures:
+  So take it top down.
+  Videos are just a series of images.
+  Images are just a screen of pixels and colors.
+  Pixels and colors are just series of numbers.
+  Numbers are just binary.
+  Binary is just microtransistors!
+  We've abstracted the whole thing from hardware to media. Whoo Harvard!
+
+
+FINDING MIKE SMITH && ALGORITHMS:
+  This is the phone-book example, and it's good!
+  He's speaking about efficiently solving problems by dividing and conquering.
+
+  Now he's running a graph.
+  n = Time to Solve w/ first algort
+  n2 = 1/2 as many steps
+  log(n) = flat line!
+
+PSEDUOCODE:
+  Use english-like language.
+  Verbs = Functions
+  If = Conditions
+  Smith = Booleans
+  Go Back = Loops
+
+  (Variables, Threads, Events)
+
+SCRATCH & OSCARTIME
+  (The default cat?)
+  OSCARTIME is dude's first programming thing.
+  SCATCH is web-based , and looks very ... elementary?
+  Drag and drop programing , which is fuckin' odd.
+  Sprites = images ? Separate programs running in tandem.
+  Cancationation = Joining two things into one.
+  Wow, we're getting into loops within an hour. Amazing teacher.
+
+SHEEP-COUNTER
+  Say counter for 1 sec.
+  Wait 1 second
+  Set counter +1 (Increment)
+  Infinity = Whatever finite physical hardware limitations, or
+  some other abstraction for those values.
+
+PET0
+  Forever = listen in perpetuity
+  Otherwise, the program executes before I can even interact with the cat.
+  You can interact with the cat in two different ways - etc
+
+BOUNCE0 + BOUNCE1
+  Now we're attempting to animate the cat using two different images.
+  He basically substitues the "costumes" (read: images) and then toys with the
+  timing settings.
+
+
+THREADING & Events:
+  multiple scripts = barking sea-lion example.
+  Basically using state & fucking with that via Events
+  Which then leads into events/event handlers/etc.
+
+ --- Notes ---
+ So you're given alot of these building blocks!
+
+DRY = DONT REPEAT YOURSELF
+
+MAKE A BLOCK / CUSTOM blocks
+  So dude basically makes "custom" block, and then uses it.
+  He basically writes a script for this shit.
+  Custom puzzle peices, and libraries, ofcourse.
+
+IVY'S HARDEST GAME:
+  ok, so that's pretty funny.
+  Apparently there's cake there. Bastards.
+  
