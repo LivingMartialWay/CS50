@@ -1,0 +1,138 @@
+START 0600
+END   0948
+...
+
+
+Peanut butter & jelly
+This is a lesson in specificity. Someone needs to do that level of precision once.
+
+NOW WE'RE LEARNING C:
+He's translated he "Hello World" program from scratch to C.
+
+Set counter to 0 => int counter = 0;
+changer counter by 1 => counter = counter + 1;
+
+Then there's the introductory syntactical numeric operators.
+Greater than, Less than, Double equal, else, etc.
+He explains how numerically we'd agree to evaluate greater,lesser, and then not
+ask the equals, because we understand how numbers work...
+
+he also then explains code legibility and the importance of that, and says
+it's better to sacrifice computing power for human legibility.
+
+While "True"
+The value of "true" is true.
+Likewise with false. The code repeats
+
+
+For (int i = 0; i < 50; i++)
+Wonderful little for loop, with parts, etc,
+(this all seems common and makes sense completely)
+
+CS50 SANDBOX
+Which is basically a text editor and a terminal.
+
+command line arguments for augmenting commands into the terminal.
+Like how to name output files, etc.
+
+
+also! This guy introduces libraries, to which they use CS50 Library to
+'get strings' and make the 'on ramp' clearer for the students.
+So this is an interesting way to introduce what libraries are .. he does so in the
+most basic terms.
+
+
+So this fucker is talking...  Delegation, etc.
+
+=Post "break"= Now onto more sophisticated programs in C. =
+
+Wow. Sandbox.cs50.io
+This is actually really fucking cool. I wonder if it still works today.
+apparently all these examples are written-out in the course notes.
+
+ANYWAY: Here's the first one:
+
+
+/////filename = int.c/////
+#include <stdio.h>
+#include <cs50.h>
+int main(void)
+{
+    int i = get_int("Integer: ");
+    printf("hello, %i\n", i);
+}
+///////////////////
+
+
+
+
+Now onto floats, which is a fucking decimal point number etc. here's the 2nd one
+
+
+
+
+/////filename = float.c/////
+#include <cs50>
+#include <stdio.h>
+int main(void)
+{
+    float f = get_float("Float: ");
+    printf("hello, %f\n", f);
+}
+/////////////////////
+
+So now we're doing math in C.
+The basic functions and modular(remainer) math.
+% = math operator
+
+Except the division doesn't work. Because INTs don't save FLOATS. Get it?
+You wanna do decimal devision, you'll need to program that shit in floats.
+So he does.
+
+anndd... then he adjusts the number of decimal places shown.
+to fifty places...
+
+and now we have a bug, as there's crazy digits stored in that solution.
+
+ NEVER COMPARE FLOATING VALUES
+ Usually a float is 32bits
+
+
+ Pairity is "is the number even? n/2 "
+
+ Module-O explained = CHECK THE REMAINDER
+
+ ||  is the "or" operator
+
+ The moment you're copying and pasting = not good CODE
+
+ Now he's talking about the practice of indentation. OK.
+
+ Now the order of how you program, because the program reads top to bottom.
+
+ Prototyping a function to avoid mainline order snafus
+
+ He then adds an argument into the newly created function "cough"
+ which then in his mainline, he can simply tag an integer for the times he wants to perform that.
+
+ do-while loop, which puts the function running once, and then checks condition.
+
+ He then explains return, which is a variable that goes to mainline..
+
+SCOPE:
+  The variable "N" only exists between them' curly brackets.
+  Global or local variables, dude.
+
+OVERFLOW:
+Lego coins examples
+
+COMMENTS:
+//yeahnu?
+
+Integer overflow, and then the fucking Y2k problem.
+
+Interger UNDERflow, which rolls the clock backwards. see?
+Ghandi becoming the most aggressive after becoming democratic.
+
+Then he starts about the homework.
+Yeah yeah yeah.
